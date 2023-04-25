@@ -22,7 +22,7 @@ for k = 1 :length(aData)
     % 读取数据（因为这里是.txt格式数据，所以直接用load()函数)
     usersID = str2double(aData(k).name(3:3));
    
-    %不懂
+    
     Rawdata{m,k} = ldata;  
 end
 m=m+1;
@@ -40,7 +40,7 @@ for k = 1 :length(aData)
     ldata = accdata;
     usersID = str2double(aData(k).name(3:3));
    
-    %不懂
+    
     Rawdata{m,k} = ldata;  
 end
 m=m+1;
@@ -62,7 +62,6 @@ for k = 1 :length(aData)
     % 读取数据（因为这里是.txt格式数据，所以直接用load()函数)
     usersID = str2double(aData(k).name(3:3));
    
-    %不懂
     Rawdata{m,k} = ldata;  
 end
 m=m+1;
@@ -81,7 +80,6 @@ for k = 1 :length(aData)
     ldata = accdata;
     usersID = str2double(aData(k).name(3:3));
    
-    %不懂
     Rawdata{m,k} = ldata;  
 end
 m=m+1;
@@ -103,7 +101,6 @@ for k = 1 :length(aData)
     % 读取数据（因为这里是.txt格式数据，所以直接用load()函数)
     usersID = str2double(aData(k).name(3:3));
    
-    %不懂
     Rawdata{m,k} = ldata;  
 end
 m=m+1;
@@ -126,7 +123,6 @@ for k = 1 :length(aData)
     % 读取数据（因为这里是.txt格式数据，所以直接用load()函数)
     usersID = str2double(aData(k).name(3:3));
    
-    %不懂
     Rawdata{m,k} = ldata;  
 end
 m=m+1;
